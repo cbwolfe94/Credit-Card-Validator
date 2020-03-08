@@ -1,5 +1,5 @@
 #ifndef VALIDATOR_H
 #define VALIDATOR_H
-void isCreditCardValid(int);
+void isCreditCardValid(int*, int);
 
 #endif
