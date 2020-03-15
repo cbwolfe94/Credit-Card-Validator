@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "validator.h"
 
+//Main driver function for validation of the credit card that follows the Luhn Algorithm
 void isCreditCardValid(int* creditCardNumber, int size){
     int newArray[size - 1];
     int checksum = 0;

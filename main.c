@@ -1,3 +1,11 @@
+/* 
+Program for a credit card validator. A command line arugment specifies the 
+credit card number to be checked. This program assumes that the last digit of the 
+credit card number is a check digit.
+ */
+
+
+
 #include <stdio.h>
 #include <string.h>
 #include "validator.h"
